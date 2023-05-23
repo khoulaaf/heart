@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Membaca dataset
-heart_model = pickle.load(open('heart.sav', 'rb'))
+heart_model = pickle.load(open('heart.sav'))
 
 
 # Prediksi Gagal Jantung
